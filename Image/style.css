@@ -1,0 +1,105 @@
+/* Reset some default styles for consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: Arial, sans-serif;
+}
+  
+.textbox-container {
+    margin: 20px;
+    width: 450px;
+}
+  
+input[type="text"] {
+    /*margin-left: 90px;*/
+    width: 500px;
+    background-color: #24c4fc;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+  
+input[type="text"]:focus {
+    outline: none;
+    border-color: #6c63ff;
+}
+
+.img{
+    margin-top: 65px;
+    margin-left: 100px;
+}
+
+.d2{
+    margin-left: 200px;
+    font-size: 35px;
+}
+
+.p1{
+    margin-left: 1130px;
+    font-size: 35px;
+    margin-top: -35px;
+ }
+
+.dn1{
+    margin-left: 250px;
+    font-size: 27px;
+    margin-top: -550px;
+}
+#dn1 {
+    margin-left: 90px;
+}
+.di1{
+    margin-left: 265px;
+    font-size: 27px;
+    margin-top: 50px;
+}
+#di1 {
+    margin-left: 90px;
+}
+
+#p1 {
+    margin-left: 1000px;
+}
+
+.drp{
+    margin-left: 150px;
+}
+.b1{
+    margin-left: 1135px;
+    width: 10%;
+    background-color: #042454;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #ffff;
+}
+
+.nr{
+    margin-left: 1110px;
+    margin-top: 130px;
+    font-size: 27px;
+}
+
+.reg{
+    margin-left: 1110px;
+    width: 12%;
+    margin-top: 20px;
+    background-color:#fc344c;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #ffff;
+}
+
+.slg{
+    margin-left: 1020px;
+    margin-top: 180px;
+}
